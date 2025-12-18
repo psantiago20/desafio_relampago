@@ -38,7 +38,6 @@ items.forEach((item) => {
 });
 
 /* carrossel */
-
 if (window.innerWidth <= 768 && slides.length > 1) {
   slides.forEach((_, index) => {
     const btn = document.createElement("button");
